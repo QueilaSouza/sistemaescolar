@@ -1,0 +1,37 @@
+<?php $painel_atual = "portaria"; ?>
+<!DOCTYPE html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Portaria</title>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<?php require "../config.php"; ?>
+</head>
+
+<body>
+
+<div id="box">
+ 
+ <div id="porteiro">
+  <h1><strong>Seu código é:</strong>  <a href="../config.php?acao=quebra"><strong>SAIR</strong></a></h1>
+ </div>
+ 
+ <div id="logo">
+  <img src="../img/logo.jpg" width="250px" />
+ </div>
+ 
+ <div id="campo_busca">
+   <form name="" method="post" action="" enctype="multipart/form-data">
+   <input type="text" name="cpf" value="" /><input class="input" type="submit" name="send" value="" />
+  </form>
+  
+
+<br><br><br><br><h3><strong>Aluno:</strong>  <strong>Nº de matricula:</strong> <strong>RG:</strong>  <a href="index.php?pg=confirma&code_a=<img src="../img/correto.jpg" title="Confirmar" border="0" /></a> <a href="index.php"><img src="../img/deleta.png" width="24px" title="Cancelar" /></a> </h3><input type="hidden" name="codes" value="" />  
+ 
+
+
+
+ </div>
+ <br><br><br>
+</div>
+</body>
+</html>
