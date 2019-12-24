@@ -1,17 +1,16 @@
 <?php 
 
-$ login = $ _POST ['login'];
-$senha = MD5 ($ _ POST ['senha']);
-$connect = mysqli_connect ('localhost', 'id12031183_sistemaescolar01', 'opan123');
+$login= ['login'];
+$senha=[''];
+$connect=mysqli_connect('localhost','id12031183_sistemaescolar01','', 'id12031183_sistemaescolar01');
 $db = mysqli_select_db ('id12031183_sistemaescolar01');
-$query_select = “SELECT login de usuarios WHERE login = '$ login'”;
-$select = mysqli_query ($ query_select, $ connect);
-$array = mysqli_fetch_array ($ select);
-$logarray = $ array ['login'];
+$query_select = “SELECT * FROM login WHERE id='$code'”;
+$select = "mysqli_query=($ query_select, $ connect)";
+$array = "mysqli_fetch_array ($ select)";
+$logarray = "$array ['login']";
 
-if ($ login == “” || $ login == null) {
+if ($ login == “” || $ login == null){ 
 echo "";
-
 }else{
   if($logarray == $login){
 
