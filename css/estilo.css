@@ -1,0 +1,178 @@
+body{
+background:#FFF;	
+}
+
+#logo{
+width:350px;
+height:247px;
+margin:auto;	
+}
+
+#logo img{
+width:350px;
+height:247px;	
+}
+
+
+
+
+
+
+#caixa_login{
+	background:#FFF;
+	width:450px;
+	height:300px;
+	margin:-35px auto;
+	border:1px solid #CCC;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+	
+
+	
+#caixa_login table{
+	font:15px Arial, Helvetica, sans-serif;
+	color:#666;
+	margin:40px 10px 10px 10px;
+	}
+	
+		
+#caixa_login h1{
+	font:15px Arial, Helvetica, sans-serif;
+	color:#666;
+	margin:10px 0 0 0;
+	}
+	
+	
+#caixa_login input{
+	font:15px Arial, Helvetica, sans-serif;
+	color:#751642;
+	height:25px;
+	padding:10px;
+	width:400px;
+	border:1px solid #CCC;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+	
+	
+#caixa_login .input{
+	font:15px Arial, Helvetica, sans-serif;
+	color:#FFF;
+	height:40px;
+	padding:10px;
+	background:#99295d;
+	cursor:pointer;
+	width:80px;
+	margin:10px 0 0 0;
+	border:1px solid #CCC;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+	
+	
+#caixa_login .input:hover{
+	
+	
+	background:#751642;
+	
+	}	
+	
+	
+
+#caixa_login h2{
+	font:15px Arial, Helvetica, sans-serif;
+	color:#FFF;
+	background:#900;
+	text-align:center;
+	padding:5px;
+	float:left;
+	margin:28px 0 10px 10px;
+	border:1px solid #CCC;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+#box{
+	width:500px;
+	margin:20px auto;
+	height:auto;
+	padding:10px;
+	border:1px solid #999;
+	border-radius:10px;
+	}
+	
+#porteiro{
+	text-align:center;
+	width:500px;
+	}
+#porteiro h1{
+	font:15px Arial, Helvetica, sans-serif;
+	}
+#porteiro a{
+	margin:0 0 0 100px;
+	color:#333;
+	}
+#porteiro a:hover{
+	color:#060;
+	}
+	
+#logo{
+	margin:20px 0 0 0;
+	text-align:center;
+	width:500px;
+	}
+	
+	
+	
+#campo_busca{
+	text-align:center;
+	width:500px;
+	margin:20px 0 0 0;
+	}
+#campo_busca input{
+	float:left;
+	height:40px;
+	margin:0 0 0 30px;
+	color:#900;
+	font:16px Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding:10px;
+	width:320px;
+	border:1px solid #CCC;
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	}
+#campo_busca .input{
+	background:url(../img/button.png);
+	float:left;
+	height:60px;
+	margin:0 0 0 10px;
+	cursor:pointer;
+	padding:10px;
+	border:0;
+	width:100px;
+	}
+#campo_busca h2{
+	font:15px Arial, Helvetica, sans-serif;
+	width:500px;
+	text-align:center;
+	color:#F00;
+	}
+#campo_busca h3{
+	font:15px Arial, Helvetica, sans-serif;
+	width:500px;
+	text-align:center;
+	color:#666;
+	}
+
